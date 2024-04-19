@@ -1,0 +1,2 @@
+pyspark
+feast[redis]==0.36.0
