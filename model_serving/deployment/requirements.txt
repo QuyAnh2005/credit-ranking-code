@@ -1,0 +1,8 @@
+bentoml==1.0.5
+fastparquet
+feast[redis]
+mlflow==2.11.3
+pandas
+pyspark
+scikit-learn==1.3.0
+xgboost
