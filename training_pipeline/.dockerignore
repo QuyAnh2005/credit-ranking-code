@@ -1,0 +1,7 @@
+.dockerignore
+__pycache__
+artifacts
+dev_requirements.txt
+nbs
+dags
+feature_repo

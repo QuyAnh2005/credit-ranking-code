@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/821065664331709476/e906bf86093747cfa0e1712c8854b7e4/artifacts
+end_time: 1713428539438
+entry_point_name: ''
+experiment_id: '821065664331709476'
+lifecycle_stage: active
+run_id: e906bf86093747cfa0e1712c8854b7e4
+run_name: incongruous-owl-1000
+run_uuid: e906bf86093747cfa0e1712c8854b7e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713428538898
+status: 3
+tags: []
+user_id: quyanh

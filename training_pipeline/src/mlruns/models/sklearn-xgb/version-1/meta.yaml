@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1713429618728
+current_stage: None
+description: ''
+last_updated_timestamp: 1713429618728
+name: sklearn-xgb
+run_id: 911d36f82bbc401181709f25766288cc
+run_link: ''
+source: mlflow-artifacts:/821065664331709476/911d36f82bbc401181709f25766288cc/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/821065664331709476/911d36f82bbc401181709f25766288cc/artifacts/model
+user_id: null
+version: 1

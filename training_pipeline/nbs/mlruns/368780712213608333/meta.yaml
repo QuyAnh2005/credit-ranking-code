@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/368780712213608333
+creation_time: 1713284629594
+experiment_id: '368780712213608333'
+last_update_time: 1713284629594
+lifecycle_stage: active
+name: xgb
