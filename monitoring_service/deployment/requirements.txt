@@ -1,0 +1,6 @@
+evidently==0.2.8
+fastparquet
+Flask
+pandas
+prometheus_client==0.14.1
+python-dotenv==0.21.0
