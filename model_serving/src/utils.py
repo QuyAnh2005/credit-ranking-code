@@ -38,14 +38,46 @@ class Config:
     def __init__(self) -> None:
         import numpy as np
 
-        self.feature_dict = {
-            'income_expenditure_difference': np.float64, 
-            'income': np.float64, 
-            'total_expenses': np.float64, 
-            'loan_term': np.float64, 
-            'expected_loan_interest': np.float64,
-            'result': np.object_
+        self.continuous_features = {
+            "income_expenditure_difference": np.float64,
+            "income": np.float64,
+            "total_expenses": np.float64,
+            "total_income": np.float64,
+            "loan_term": np.float64,
+            "salary_allowance": np.float64,
+            "number_of_products_in_use": np.int64,
+            "casa_balance": np.float64,
+            "number_of_dependents": np.int64,
+            "age": np.int64,
+            "term_deposit_balance": np.float64,
+            "number_of_non_credit_products": np.int64,
+            "work_tenure": np.float64,
+            "bank_debt_balance": np.float64,
+            "number_of_banks_with_outstanding_debt": np.int64,
+            "loan_amount": np.float64,
+            "expected_loan_interest": np.float64,
+            "duration_of_relationship_with_the_bank": np.int64,
+            "proposed_term": np.float64,
         }
+        self.category_features = {
+            "working_agency": np.object_,
+            "type_of_residence": np.object_,
+            "bank_product": np.object_,
+            "customer_segment": np.object_,
+            "marital_status": np.object_,
+            "educational_level": np.object_,
+            "insurance": np.object_,
+            "position": np.object_,
+            "housing": np.object_,
+            "debt_repayment_source": np.object_,
+            "labor_contract": np.object_,
+            "economic_sector": np.object_,
+            "debt_group_information": np.object_,
+            "overdue_history": np.object_,
+        }
+        self.feature_dict = {"result": np.object_}
+        self.feature_dict.update(self.continuous_features)
+        self.feature_dict.update(self.category_features)
         self.mlflow_tracking_uri = os.environ.get("MLFLOW_TRACKING_URI")
         self.batch_input_file = os.environ.get("BATCH_INPUT_FILE")
         self.registered_model_file = os.environ.get("REGISTERED_MODEL_FILE")
