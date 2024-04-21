@@ -8,7 +8,7 @@ make feast_apply
 make build_image && make deploy_dags
 
 # Go to airflow UI
-# Set variable MLOPS_CRASH_COURSE_CODE_DIR=path/to/mlops-crash-course-code
+# Set variable CODE_DIR=path/to/credit-ranking-code
 # Run dags
 
 # Deploy feature repo to training pipeline

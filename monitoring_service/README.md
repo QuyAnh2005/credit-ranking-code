@@ -15,7 +15,7 @@ make compose_up
 make compose_down
 
 # To run mock_request.py
-export MONITORING_SERVICE_DIR="path/to/mlops-crash-course-code/monitoring_service"
+export MONITORING_SERVICE_DIR="path/to/credit-ranking-code/monitoring_service"
 python src/mock_request.py -d normal -n 5
 python src/mock_request.py -d drift -n 5
 ```
